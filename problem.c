@@ -13,6 +13,12 @@ int32_t main()
     ios_base::sync_with_stdio(0);
     cin.tie(0);
     cout.tie(0);
+    //////////////accesing element//////////////
+    set<int> s; //// 2 4 6 8
+    int elm = *next(s.begin(), 3) //// this will return 3 index ahead of s.begin() mean it will return 8; 
+    
+    
+    
         
 std::sort(): Sorts elements in a range.
 std::find(): Finds the first occurrence of a value in a range.
